@@ -1,0 +1,186 @@
+/* ------------------- RESOURCES -------------------  */
+/* -------- TYPOGRAPHY --------
+  font-family: "Open Sans", sans-serif;
+   font-family: "Poppins", sans-serif;
+
+   font weight
+   400 / 800
+
+   line height
+   1.7 / 1.3
+
+   font size
+   default
+
+   -------- COLOR --------
+   PRIMARY
+   base= #004b23
+   tint= #66937b
+   shade= #002d15
+
+   SECONDARY
+     base= #ffa62b
+     tint= #ffca80
+     shade= #99641a
+*/
+/* ------------------- GLOBAL STYLE -------------------  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+}
+p {
+  line-height: 1.7;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+/* ------------------- COMPONENTS -------------------  */
+.btn {
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #004b23;
+  color: #fff;
+}
+.btn-secondary {
+  background-color: #ffa62b;
+  color: #fff;
+}
+/* ------------------- NAV BAR -------------------  */
+.main-container {
+  max-width: 1600px;
+  width: 95%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nav-items {
+  display: none;
+}
+/* ------------------- HERO SECTION -------------------  */
+.hero {
+  background-image: url(images/youth.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 2px 10px #000;
+  margin-bottom: 5rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* width: 100vw; */
+}
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+#heroCta {
+  font-size: 0.9rem;
+}
+/* ------------------- HERO SECTION -------------------  */
+.about {
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+.about-title {
+  margin-bottom: 3rem;
+}
+.about-para {
+  margin-bottom: 2rem;
+}
+.about-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.about-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  box-shadow: 1px 1px 10px #000;
+}
+.about-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+/* ------------------- IMPACT SECTION -------------------  */
+
+.impact {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+.impact-title {
+  margin-bottom: 1rem;
+}
+.impact-sub-title {
+  color: #004b23;
+}
+.impact-sub-title span {
+  color: #ffa62b;
+}
+.impact-para {
+  font-size: 0.7rem;
+}
+.impact-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* ------------------- PROGRAM SECTION -------------------  */
+.program-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.program-title {
+  margin-bottom: 3rem;
+}
+.program-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.program-img {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
