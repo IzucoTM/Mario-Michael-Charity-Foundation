@@ -41,7 +41,7 @@ body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   background-color: #0a1f44;
-  color: #fff;
+  color: #ffffffbd;
 }
 h1,
 h2 {
@@ -67,6 +67,7 @@ ul {
 }
 img {
   width: 100%;
+  border-radius: 5px;
 }
 
 /* ------------------- COMPONENTS -------------------  */
@@ -77,7 +78,7 @@ img {
 }
 .btn-primary {
   background-color: #004b23;
-  color: #fff;
+  color: #ffffffd2;
 }
 .btn-secondary {
   background-color: #ffa62b;
@@ -113,11 +114,15 @@ img {
 }
 /* ------------------- HERO SECTION -------------------  */
 .hero {
+  background-image: url(images/annie-spratt-cVEOh_JJmEE-unsplash\ \(1\).webp);
+  background-size: cover;
+  background-position: center;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  padding: 1rem;
+  padding: 5rem 1rem;
   margin-bottom: 5rem;
+  text-shadow: 2px 2px 10px #000;
 }
 .hero-content-container {
   display: flex;
@@ -150,18 +155,23 @@ img {
 .about-para {
   margin-bottom: 2rem;
 }
+
+/* ------------------- MISSION SECTION -------------------  */
+.mission {
+  margin-bottom: 5rem;
+}
 .about-card-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
 .about-card {
-  background-color: #0a1f44;
+  background-color: #061329;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
-  box-shadow: 1px 1px 20px #061329;
+  box-shadow: 1px 1px 20px #0d2e68;
 }
 .about-card-list {
   display: flex;
@@ -220,6 +230,7 @@ img {
 .founder {
   background-color: #061329;
   padding: 2rem 1rem;
+  margin-bottom: 5rem;
 }
 .founder-grid {
   display: grid;
@@ -238,4 +249,30 @@ img {
 }
 .founder-img {
   border-radius: 5px;
+}
+
+/* ------------------- CONTACT SECTION -------------------  */
+.contact-section {
+  margin-bottom: 5rem;
+}
+.Contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.info-card {
+  background-color: #061329;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* ------------------- DONATE SECTION -------------------  */
+
+.donate-title {
+  margin-bottom: 2rem;
 }
