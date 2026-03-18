@@ -237,3 +237,42 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+/* --------------- contact section ---------------*/
+
+.Contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.info-card {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  box-shadow: 1px 1px 10px #000;
+  padding: 0.5rem;
+}
+.contact-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.contact-icon {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
